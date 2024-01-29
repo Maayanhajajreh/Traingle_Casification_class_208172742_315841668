@@ -20,7 +20,6 @@ public class AppTest {
         triangle.classifyTriangle(a,b,c);
         String expected =Triangle_Types.Nottriangle.toString();
         String result = triangle.get_type().toString();
-        System.out.println(result);
         assertEquals(expected, result);
     }
 	@Test
@@ -31,7 +30,6 @@ public class AppTest {
         triangle.classifyTriangle(a,b,c);
         String expected =Triangle_Types.Nottriangle.toString();
         String result = triangle.get_type().toString();
-        System.out.println(result);
         assertEquals(expected, result);
     }
 	@Test
@@ -42,7 +40,6 @@ public class AppTest {
         triangle.classifyTriangle(a,b,c);
         String expected =Triangle_Types.Nottriangle.toString();
         String result = triangle.get_type().toString();
-        System.out.println(result);
         assertEquals(expected, result);
     }
 	@Test
@@ -53,7 +50,6 @@ public class AppTest {
         triangle.classifyTriangle(a,b,c);
         String expected =Triangle_Types.Nottriangle.toString();
         String result = triangle.get_type().toString();
-        System.out.println(result);
         assertEquals(expected, result);
     }
 	//-------------------------------equilateralTriangle----------------------------------
